@@ -27,23 +27,23 @@
         <h2>Halo! Ada yang bisa dibantu?</h2>
         <p>Tanyakan seputar jadwal kuliah, dosen, KRS, atau info akademik lainnya.</p>
         <div class="chips">
-          <button class="chip" type="button">Kapan jadwal pengisian KRS?</button>
-          <button class="chip" type="button">Siapa dosen mata kuliah AI?</button>
-          <button class="chip" type="button">Kapan jadwal kuliah Jaringan Komputer?</button>
-          <button class="chip" type="button">Berapa SKS mata kuliah Sistem Operasi?</button>
+          <button class="chip" type="button">Apa itu UNP?</button>
+          <button class="chip" type="button">Siapa dosen AI?</button>
+          <button class="chip" type="button">Jadwal kuliah AI kapan?</button>
+          <button class="chip" type="button">Apa tujuan mempelajari AI?</button>
         </div>
       </section>
     </main>
 
     <form id="form" class="composer" autocomplete="off">
-      <textarea id="input" rows="1" maxlength="500" placeholder="Ketik pertanyaanmu..." required></textarea>
+      <textarea id="input" rows="1" maxlength="2000" aria-label="Pertanyaan" placeholder="Ketik pertanyaanmu..." required></textarea>
       <button id="btn-send" type="submit" aria-label="Kirim">
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </button>
     </form>
-    <p class="footnote">Jawaban dari <b>Knowledge Base</b> sudah diverifikasi. Jawaban <b>LLM</b> hanya berdasarkan data prodi.</p>
+    <p class="footnote">Jawaban dari <b>Knowledge Base</b> sudah diverifikasi. Pertanyaan dicocokkan dengan data knowledge base.</p>
   </div>
 
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
