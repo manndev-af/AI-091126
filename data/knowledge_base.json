@@ -1,0 +1,17 @@
+[
+  {
+    "id": "python-definition",
+    "questions": ["apa itu python?", "apa itu python"],
+    "answer": "Python adalah bahasa pemrograman tingkat tinggi yang digunakan untuk otomasi, pengembangan web, analisis data, dan kecerdasan buatan."
+  },
+  {
+    "id": "python-list",
+    "questions": ["apa itu list di python?", "apa itu list di python"],
+    "answer": "List adalah koleksi berurutan yang dapat diubah. Contoh: angka = [1, 2, 3]."
+  },
+  {
+    "id": "python-function",
+    "questions": ["bagaimana membuat fungsi di python?", "cara membuat fungsi di python"],
+    "answer": "Gunakan kata kunci def, nama fungsi, parameter, dan blok kode berindentasi. Contoh:\ndef sapa(nama):\n    return f'Halo, {nama}!'"
+  }
+]
