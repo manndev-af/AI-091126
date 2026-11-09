@@ -1,17 +1,163 @@
+
 [
   {
-    "id": "python-definition",
-    "questions": ["apa itu python?", "apa itu python"],
-    "answer": "Python adalah bahasa pemrograman tingkat tinggi yang digunakan untuk otomasi, pengembangan web, analisis data, dan kecerdasan buatan."
+    "id": "identitas-unp",
+    "questions": [
+      "apa itu unp?",
+      "universitas negeri padang itu apa?"
+    ],
+    "answer": "Universitas Negeri Padang (UNP) merupakan perguruan tinggi negeri yang berada di Kota Padang, Sumatera Barat."
   },
   {
-    "id": "python-list",
-    "questions": ["apa itu list di python?", "apa itu list di python"],
-    "answer": "List adalah koleksi berurutan yang dapat diubah. Contoh: angka = [1, 2, 3]."
+    "id": "fakultas-teknik",
+    "questions": [
+      "apa itu fakultas teknik?",
+      "fakultas apa yang digunakan?"
+    ],
+    "answer": "Fakultas Teknik merupakan fakultas yang menjadi bagian dari data simulasi chatbot mahasiswa UNP ini."
   },
   {
-    "id": "python-function",
-    "questions": ["bagaimana membuat fungsi di python?", "cara membuat fungsi di python"],
-    "answer": "Gunakan kata kunci def, nama fungsi, parameter, dan blok kode berindentasi. Contoh:\ndef sapa(nama):\n    return f'Halo, {nama}!'"
+    "id": "program-studi",
+    "questions": [
+      "apa program studi yang digunakan?",
+      "prodi apa?"
+    ],
+    "answer": "Program studi yang digunakan dalam chatbot ini adalah Teknik Informatika (TI), Fakultas Teknik UNP."
+  },
+  {
+    "id": "angkatan",
+    "questions": [
+      "angkatan berapa?",
+      "apa itu bp 2025?"
+    ],
+    "answer": "Data mahasiswa dalam chatbot ini menggunakan angkatan BP 2025 atau mahasiswa yang masuk pada tahun 2025."
+  },
+  {
+    "id": "mata-kuliah-ai",
+    "questions": [
+      "apa itu mata kuliah ai?",
+      "artificial intelligence itu apa?"
+    ],
+    "answer": "Artificial Intelligence (AI) atau kecerdasan buatan merupakan mata kuliah yang mempelajari bagaimana komputer dapat meniru kemampuan berpikir dan mengambil keputusan seperti manusia."
+  },
+  {
+    "id": "tujuan-ai",
+    "questions": [
+      "apa tujuan mempelajari ai?",
+      "mengapa kita belajar artificial intelligence?"
+    ],
+    "answer": "Tujuan mempelajari Artificial Intelligence adalah memahami konsep kecerdasan buatan serta mampu mengembangkan program yang dapat menyelesaikan masalah secara cerdas."
+  },
+  {
+    "id": "dosen-ai",
+    "questions": [
+      "siapa dosen pengampu ai?",
+      "siapa dosen ai?"
+    ],
+    "answer": "Berdasarkan data dummy, dosen pengampu mata kuliah Artificial Intelligence adalah Bapak Andi Pratama, M.Kom."
+  },
+  {
+    "id": "jadwal-ai",
+    "questions": [
+      "jadwal kuliah ai kapan?",
+      "hari apa mata kuliah ai?"
+    ],
+    "answer": "Berdasarkan data dummy, mata kuliah Artificial Intelligence dilaksanakan setiap hari Selasa pukul 10.00 sampai 12.30 WIB."
+  },
+  {
+    "id": "ruangan-ai",
+    "questions": [
+      "di mana lokasi kuliah ai?",
+      "ai dilaksanakan di ruangan apa?"
+    ],
+    "answer": "Berdasarkan data dummy, perkuliahan Artificial Intelligence dilaksanakan di Laboratorium Komputer 2 Fakultas Teknik UNP."
+  },
+  {
+    "id": "materi-ai",
+    "questions": [
+      "apa saja materi ai?",
+      "materi apa yang dipelajari di ai?"
+    ],
+    "answer": "Materi Artificial Intelligence meliputi pengenalan AI, sejarah AI, intelligent agent, algoritma pencarian, machine learning, neural network, dan sistem pakar."
+  },
+  {
+    "id": "intelligent-agent",
+    "questions": [
+      "apa itu intelligent agent?",
+      "jelaskan intelligent agent"
+    ],
+    "answer": "Intelligent Agent adalah sistem yang dapat mengamati lingkungan melalui sensor dan melakukan tindakan menggunakan aktuator untuk mencapai tujuan tertentu."
+  },
+  {
+    "id": "algoritma-pencarian",
+    "questions": [
+      "apa itu algoritma pencarian?",
+      "sebutkan algoritma pencarian ai"
+    ],
+    "answer": "Algoritma pencarian adalah metode untuk menemukan solusi dari suatu permasalahan. Contohnya adalah Breadth First Search (BFS), Depth First Search (DFS), dan A*."
+  },
+  {
+    "id": "machine-learning",
+    "questions": [
+      "apa itu machine learning?",
+      "jelaskan machine learning"
+    ],
+    "answer": "Machine Learning merupakan bagian dari Artificial Intelligence yang memungkinkan komputer belajar dari data dan meningkatkan kemampuannya tanpa harus diprogram secara langsung untuk setiap tugas."
+  },
+  {
+    "id": "neural-network",
+    "questions": [
+      "apa itu neural network?",
+      "jelaskan neural network"
+    ],
+    "answer": "Neural Network adalah model komputasi yang terinspirasi dari jaringan saraf manusia dan digunakan untuk mengenali pola serta memproses informasi."
+  },
+  {
+    "id": "sistem-pakar",
+    "questions": [
+      "apa itu sistem pakar?",
+      "jelaskan sistem pakar"
+    ],
+    "answer": "Sistem pakar adalah sistem komputer yang menggunakan pengetahuan dan aturan tertentu untuk membantu menyelesaikan masalah seperti seorang ahli pada bidang tertentu."
+  },
+  {
+    "id": "python-ai",
+    "questions": [
+      "bahasa pemrograman apa untuk ai?",
+      "mengapa python digunakan untuk ai?"
+    ],
+    "answer": "Python merupakan salah satu bahasa pemrograman yang banyak digunakan untuk Artificial Intelligence karena memiliki sintaks yang mudah dipahami dan library seperti NumPy, Pandas, Scikit-learn, serta TensorFlow."
+  },
+  {
+    "id": "tugas-ai",
+    "questions": [
+      "apa tugas proyek ai?",
+      "apa tugas mata kuliah ai?"
+    ],
+    "answer": "Berdasarkan data dummy, tugas proyek mata kuliah AI adalah membuat chatbot sederhana menggunakan Python dengan menerapkan knowledge base dan fungsi find_answer()."
+  },
+  {
+    "id": "uts-ai",
+    "questions": [
+      "uts ai kapan?",
+      "materi uts ai apa?"
+    ],
+    "answer": "Berdasarkan data dummy, UTS mata kuliah AI dilaksanakan pada minggu ke-8 dengan materi pertemuan 1 sampai 7."
+  },
+  {
+    "id": "uas-ai",
+    "questions": [
+      "uas ai kapan?",
+      "materi uas ai apa?"
+    ],
+    "answer": "Berdasarkan data dummy, UAS mata kuliah AI dilaksanakan pada minggu ke-16 dengan materi keseluruhan selama satu semester."
+  },
+  {
+    "id": "library-ai",
+    "questions": [
+      "apa saja library python untuk ai?",
+      "library python apa yang digunakan dalam ai?"
+    ],
+    "answer": "Beberapa library Python yang dapat digunakan untuk pengembangan Artificial Intelligence adalah NumPy, Pandas, Scikit-learn, TensorFlow, dan PyTorch."
   }
 ]
