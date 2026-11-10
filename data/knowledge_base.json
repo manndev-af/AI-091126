@@ -1,4 +1,3 @@
-
 [
   {
     "id": "identitas-unp",
@@ -14,7 +13,7 @@
       "apa itu fakultas teknik?",
       "fakultas apa yang digunakan?"
     ],
-    "answer": "Fakultas Teknik merupakan fakultas yang menjadi bagian dari data simulasi chatbot mahasiswa UNP ini."
+    "answer": "Fakultas Teknik (FT) adalah salah satu fakultas di Universitas Negeri Padang. Situs FT menampilkan enam departemen: Teknik Sipil, Teknik Mesin, Teknik Otomotif, Teknik Elektro, Teknik Elektronika, dan Teknik Pertambangan. Sumber: https://ft.unp.ac.id/ (diakses 10 November 2026)."
   },
   {
     "id": "program-studi",
@@ -22,7 +21,7 @@
       "apa program studi yang digunakan?",
       "prodi apa?"
     ],
-    "answer": "Program studi yang digunakan dalam chatbot ini adalah Teknik Informatika (TI), Fakultas Teknik UNP."
+    "answer": "Contoh percakapan chatbot ini berfokus pada Informatika (S1), Departemen Teknik Elektronika, Fakultas Teknik UNP. Informatika berbeda dari Pendidikan Teknik Informatika (S1), yang juga tercantum pada daftar prodi FT UNP. Sumber: https://informatika.ft.unp.ac.id/ dan https://ft.unp.ac.id/ (diakses 10 November 2026)."
   },
   {
     "id": "angkatan",
@@ -159,5 +158,1325 @@
       "library python apa yang digunakan dalam ai?"
     ],
     "answer": "Beberapa library Python yang dapat digunakan untuk pengembangan Artificial Intelligence adalah NumPy, Pandas, Scikit-learn, TensorFlow, dan PyTorch."
+  },
+  {
+    "id": "cakupan-dan-status-data",
+    "questions": [
+      "apakah semua data chatbot ini resmi?",
+      "apakah jadwal di chatbot ini jadwal asli?",
+      "apa sumber data chatbot ini?"
+    ],
+    "answer": "Knowledge base ini mencampur referensi resmi dan contoh simulasi. Nama prodi dan jenjang dirujuk dari situs FT UNP pada 10 November 2026. Daftar mata kuliah S1 Teknik Mesin, S1 Pendidikan Teknik Elektro, dan S1 Pendidikan Teknik Elektronika memiliki sumber kurikulum resmi yang dicantumkan pada masing-masing jawaban. Contoh mata kuliah prodi lain dan jadwal demo diberi label SIMULASI, belum diverifikasi sebagai kurikulum atau jadwal aktual. Nama dosen AI, ruang AI, tugas dan jadwal ujian AI pada data awal juga merupakan data dummy. Jadwal resmi per semester belum disimpan; gunakan Portal Akademik atau pengumuman prodi."
+  },
+  {
+    "id": "daftar-prodi-ft-unp",
+    "questions": [
+      "apa saja prodi di fakultas teknik unp?",
+      "prodi apa saja yang ada di ft unp?",
+      "daftar program studi fakultas teknik unp",
+      "apa saja jurusan di fakultas teknik unp?"
+    ],
+    "answer": "Daftar program studi yang ditampilkan situs FT UNP: Pendidikan Teknik Bangunan (S1); Teknik Sipil (S1); Teknik Sipil dan Bangunan (D3); Pendidikan Teknik Mesin (S1); Teknik Mesin (S1); Teknik Mesin (D3); Pendidikan Teknik Otomotif (S1); Teknik Otomotif (D3); Teknik Otomotif Sawahlunto (D3); Pendidikan Teknik Elektro (S1); Teknik Elektro Industri (D4); Teknik Elektro (S1); Teknik Listrik (D3); Pendidikan Teknik Elektronika (S1); Pendidikan Teknik Informatika (S1); Teknologi Rekayasa Sistem Elektronika (D4); Informatika (S1); Teknik Pertambangan (S1); Teknik Pertambangan (D3); Teknik Geologi (S1); Teknik Pertambangan Sawahlunto (D3); Pendidikan Teknologi dan Kejuruan (S2); Teknik Elektro (S2); Teknik Mesin (S2); Teknik Sipil (S2); Pendidikan Teknologi dan Kejuruan (S3); Program Profesi Insinyur. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "daftar-prodi-teknik-sipil",
+    "questions": [
+      "apa saja prodi di departemen teknik sipil?",
+      "daftar prodi teknik sipil ft unp"
+    ],
+    "answer": "Kelompok Teknik Sipil pada daftar FT UNP mencakup: Pendidikan Teknik Bangunan (S1); Teknik Sipil (S1); Teknik Sipil dan Bangunan (D3). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "daftar-prodi-teknik-mesin",
+    "questions": [
+      "apa saja prodi di departemen teknik mesin?",
+      "daftar prodi teknik mesin ft unp"
+    ],
+    "answer": "Kelompok Teknik Mesin pada daftar FT UNP mencakup: Pendidikan Teknik Mesin (S1); Teknik Mesin (S1); Teknik Mesin (D3). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "daftar-prodi-teknik-otomotif",
+    "questions": [
+      "apa saja prodi di departemen teknik otomotif?",
+      "daftar prodi teknik otomotif ft unp"
+    ],
+    "answer": "Kelompok Teknik Otomotif pada daftar FT UNP mencakup: Pendidikan Teknik Otomotif (S1); Teknik Otomotif (D3); Teknik Otomotif Sawahlunto (D3). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "daftar-prodi-teknik-elektro",
+    "questions": [
+      "apa saja prodi di departemen teknik elektro?",
+      "daftar prodi teknik elektro ft unp"
+    ],
+    "answer": "Kelompok Teknik Elektro pada daftar FT UNP mencakup: Pendidikan Teknik Elektro (S1); Teknik Elektro Industri (D4); Teknik Elektro (S1); Teknik Listrik (D3). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "daftar-prodi-teknik-elektronika",
+    "questions": [
+      "apa saja prodi di departemen teknik elektronika?",
+      "daftar prodi teknik elektronika ft unp"
+    ],
+    "answer": "Kelompok Teknik Elektronika pada daftar FT UNP mencakup: Pendidikan Teknik Elektronika (S1); Pendidikan Teknik Informatika (S1); Teknologi Rekayasa Sistem Elektronika (D4); Informatika (S1). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "daftar-prodi-teknik-pertambangan",
+    "questions": [
+      "apa saja prodi di departemen teknik pertambangan?",
+      "daftar prodi teknik pertambangan ft unp"
+    ],
+    "answer": "Kelompok Teknik Pertambangan pada daftar FT UNP mencakup: Teknik Pertambangan (S1); Teknik Pertambangan (D3); Teknik Geologi (S1); Teknik Pertambangan Sawahlunto (D3). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "daftar-prodi-pascasarjana",
+    "questions": [
+      "apa saja prodi di departemen pascasarjana?",
+      "daftar prodi pascasarjana ft unp"
+    ],
+    "answer": "Kelompok Pascasarjana pada daftar FT UNP mencakup: Pendidikan Teknologi dan Kejuruan (S2); Teknik Elektro (S2); Teknik Mesin (S2); Teknik Sipil (S2); Pendidikan Teknologi dan Kejuruan (S3). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "daftar-prodi-profesi",
+    "questions": [
+      "apa saja prodi di departemen profesi?",
+      "daftar prodi profesi ft unp"
+    ],
+    "answer": "Kelompok Profesi pada daftar FT UNP mencakup: Program Profesi Insinyur. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "prodi-sarjana-ft-unp",
+    "questions": [
+      "apa saja prodi s1 di ft unp?",
+      "daftar prodi sarjana fakultas teknik unp"
+    ],
+    "answer": "Program S1 yang ditampilkan situs FT UNP: Pendidikan Teknik Bangunan (S1); Teknik Sipil (S1); Pendidikan Teknik Mesin (S1); Teknik Mesin (S1); Pendidikan Teknik Otomotif (S1); Pendidikan Teknik Elektro (S1); Teknik Elektro (S1); Pendidikan Teknik Elektronika (S1); Pendidikan Teknik Informatika (S1); Informatika (S1); Teknik Pertambangan (S1); Teknik Geologi (S1). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "prodi-vokasi-ft-unp",
+    "questions": [
+      "apa saja prodi d3 dan d4 di ft unp?",
+      "daftar prodi vokasi fakultas teknik unp"
+    ],
+    "answer": "Program D3 dan D4 yang ditampilkan situs FT UNP: Teknik Sipil dan Bangunan (D3); Teknik Mesin (D3); Teknik Otomotif (D3); Teknik Otomotif Sawahlunto (D3); Teknik Elektro Industri (D4); Teknik Listrik (D3); Teknologi Rekayasa Sistem Elektronika (D4); Teknik Pertambangan (D3); Teknik Pertambangan Sawahlunto (D3). Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun."
+  },
+  {
+    "id": "prodi-pendidikan-teknik-bangunan-s1",
+    "questions": [
+      "apa itu prodi pendidikan teknik bangunan s1?",
+      "pendidikan teknik bangunan s1 termasuk departemen apa?",
+      "di mana informasi prodi pendidikan teknik bangunan s1 unp?"
+    ],
+    "answer": "Pendidikan Teknik Bangunan (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Sipil. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://ptb.sipil.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-bangunan-s1",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik bangunan s1?",
+      "mata kuliah apa saja di prodi pendidikan teknik bangunan s1?",
+      "kurikulum pendidikan teknik bangunan s1 unp",
+      "contoh mata kuliah pendidikan teknik bangunan s1",
+      "apa saja mata kuliah pendidikan teknik bangunan?",
+      "mata kuliah pendidikan teknik bangunan apa saja?",
+      "kurikulum pendidikan teknik bangunan unp",
+      "apa saja mata kuliah ptb?",
+      "mata kuliah ptb apa saja?",
+      "kurikulum ptb unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Pendidikan Teknik Bangunan (S1) UNP. Contoh mata kuliah/topik bidang ini: Gambar Teknik; Mekanika Teknik; Ilmu Bahan Bangunan; Konstruksi Bangunan; Media Pembelajaran; Evaluasi Pembelajaran. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://ptb.sipil.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-pendidikan-teknik-bangunan-s1",
+    "questions": [
+      "kapan jadwal kuliah pendidikan teknik bangunan s1?",
+      "jadwal kuliah pendidikan teknik bangunan s1",
+      "jadwal resmi pendidikan teknik bangunan s1 semester ini",
+      "jadwal kuliah pendidikan teknik bangunan",
+      "kapan jadwal kuliah pendidikan teknik bangunan?",
+      "jadwal kuliah ptb",
+      "kapan jadwal kuliah ptb?"
+    ],
+    "answer": "Jadwal resmi Pendidikan Teknik Bangunan (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://ptb.sipil.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-pendidikan-teknik-bangunan-s1",
+    "questions": [
+      "contoh jadwal kuliah pendidikan teknik bangunan s1",
+      "jadwal simulasi pendidikan teknik bangunan s1",
+      "contoh jadwal demo pendidikan teknik bangunan s1",
+      "contoh jadwal kuliah pendidikan teknik bangunan",
+      "contoh jadwal kuliah ptb"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Pendidikan Teknik Bangunan (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Gambar Teknik, Senin 08.00-09.40 WIB, ruang DEMO-01-A. Contoh sesi teori kedua: Mekanika Teknik, Rabu 10.00-11.40 WIB, ruang DEMO-01-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-sipil-s1",
+    "questions": [
+      "apa itu prodi teknik sipil s1?",
+      "teknik sipil s1 termasuk departemen apa?",
+      "di mana informasi prodi teknik sipil s1 unp?"
+    ],
+    "answer": "Teknik Sipil (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Sipil. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://s1sipil.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-sipil-s1",
+    "questions": [
+      "apa saja mata kuliah teknik sipil s1?",
+      "mata kuliah apa saja di prodi teknik sipil s1?",
+      "kurikulum teknik sipil s1 unp",
+      "contoh mata kuliah teknik sipil s1",
+      "apa saja mata kuliah teknik sipil?",
+      "mata kuliah teknik sipil apa saja?",
+      "kurikulum teknik sipil unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Sipil (S1) UNP. Contoh mata kuliah/topik bidang ini: Mekanika Teknik; Analisis Struktur; Struktur Beton; Mekanika Tanah; Hidrologi; Manajemen Konstruksi. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://s1sipil.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-sipil-s1",
+    "questions": [
+      "kapan jadwal kuliah teknik sipil s1?",
+      "jadwal kuliah teknik sipil s1",
+      "jadwal resmi teknik sipil s1 semester ini",
+      "jadwal kuliah teknik sipil",
+      "kapan jadwal kuliah teknik sipil?"
+    ],
+    "answer": "Jadwal resmi Teknik Sipil (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://s1sipil.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-sipil-s1",
+    "questions": [
+      "contoh jadwal kuliah teknik sipil s1",
+      "jadwal simulasi teknik sipil s1",
+      "contoh jadwal demo teknik sipil s1",
+      "contoh jadwal kuliah teknik sipil"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Sipil (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Mekanika Teknik, Selasa 08.00-09.40 WIB, ruang DEMO-02-A. Contoh sesi teori kedua: Analisis Struktur, Kamis 10.00-11.40 WIB, ruang DEMO-02-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-sipil-d3",
+    "questions": [
+      "apa itu prodi teknik sipil dan bangunan d3?",
+      "teknik sipil dan bangunan d3 termasuk departemen apa?",
+      "di mana informasi prodi teknik sipil dan bangunan d3 unp?"
+    ],
+    "answer": "Teknik Sipil dan Bangunan (D3) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Sipil. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: http://sipil.ft.unp.ac.id/d3-teknik-sipil-bangunan-gedung/"
+  },
+  {
+    "id": "mata-kuliah-teknik-sipil-d3",
+    "questions": [
+      "apa saja mata kuliah teknik sipil dan bangunan d3?",
+      "mata kuliah apa saja di prodi teknik sipil dan bangunan d3?",
+      "kurikulum teknik sipil dan bangunan d3 unp",
+      "contoh mata kuliah teknik sipil dan bangunan d3"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Sipil dan Bangunan (D3) UNP. Contoh mata kuliah/topik bidang ini: Gambar Bangunan; Bahan Bangunan; Ilmu Ukur Tanah; Praktik Kerja Batu; Praktik Beton; Estimasi Biaya Konstruksi. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa http://sipil.ft.unp.ac.id/d3-teknik-sipil-bangunan-gedung/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-sipil-d3",
+    "questions": [
+      "kapan jadwal kuliah teknik sipil dan bangunan d3?",
+      "jadwal kuliah teknik sipil dan bangunan d3",
+      "jadwal resmi teknik sipil dan bangunan d3 semester ini"
+    ],
+    "answer": "Jadwal resmi Teknik Sipil dan Bangunan (D3) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi http://sipil.ft.unp.ac.id/d3-teknik-sipil-bangunan-gedung/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-sipil-d3",
+    "questions": [
+      "contoh jadwal kuliah teknik sipil dan bangunan d3",
+      "jadwal simulasi teknik sipil dan bangunan d3",
+      "contoh jadwal demo teknik sipil dan bangunan d3"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Sipil dan Bangunan (D3), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Gambar Bangunan, Rabu 08.00-09.40 WIB, ruang DEMO-03-A. Contoh sesi teori kedua: Bahan Bangunan, Jumat 10.00-11.40 WIB, ruang DEMO-03-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-pendidikan-teknik-mesin-s1",
+    "questions": [
+      "apa itu prodi pendidikan teknik mesin s1?",
+      "pendidikan teknik mesin s1 termasuk departemen apa?",
+      "di mana informasi prodi pendidikan teknik mesin s1 unp?"
+    ],
+    "answer": "Pendidikan Teknik Mesin (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Mesin. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://ptm.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-mesin-s1",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik mesin s1?",
+      "mata kuliah apa saja di prodi pendidikan teknik mesin s1?",
+      "kurikulum pendidikan teknik mesin s1 unp",
+      "contoh mata kuliah pendidikan teknik mesin s1",
+      "apa saja mata kuliah pendidikan teknik mesin?",
+      "mata kuliah pendidikan teknik mesin apa saja?",
+      "kurikulum pendidikan teknik mesin unp",
+      "apa saja mata kuliah ptm?",
+      "mata kuliah ptm apa saja?",
+      "kurikulum ptm unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Pendidikan Teknik Mesin (S1) UNP. Contoh mata kuliah/topik bidang ini: Gambar Teknik; Teknologi Bahan; Proses Pemesinan; Teknik Pengelasan; Media Pembelajaran; Evaluasi Pembelajaran. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://ptm.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-pendidikan-teknik-mesin-s1",
+    "questions": [
+      "kapan jadwal kuliah pendidikan teknik mesin s1?",
+      "jadwal kuliah pendidikan teknik mesin s1",
+      "jadwal resmi pendidikan teknik mesin s1 semester ini",
+      "jadwal kuliah pendidikan teknik mesin",
+      "kapan jadwal kuliah pendidikan teknik mesin?",
+      "jadwal kuliah ptm",
+      "kapan jadwal kuliah ptm?"
+    ],
+    "answer": "Jadwal resmi Pendidikan Teknik Mesin (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://ptm.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-pendidikan-teknik-mesin-s1",
+    "questions": [
+      "contoh jadwal kuliah pendidikan teknik mesin s1",
+      "jadwal simulasi pendidikan teknik mesin s1",
+      "contoh jadwal demo pendidikan teknik mesin s1",
+      "contoh jadwal kuliah pendidikan teknik mesin",
+      "contoh jadwal kuliah ptm"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Pendidikan Teknik Mesin (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Gambar Teknik, Kamis 08.00-09.40 WIB, ruang DEMO-04-A. Contoh sesi teori kedua: Teknologi Bahan, Senin 10.00-11.40 WIB, ruang DEMO-04-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-mesin-s1",
+    "questions": [
+      "apa itu prodi teknik mesin s1?",
+      "teknik mesin s1 termasuk departemen apa?",
+      "di mana informasi prodi teknik mesin s1 unp?"
+    ],
+    "answer": "Teknik Mesin (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Mesin. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://tm.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-mesin-s1",
+    "questions": [
+      "apa saja mata kuliah teknik mesin s1?",
+      "mata kuliah apa saja di prodi teknik mesin s1?",
+      "kurikulum teknik mesin s1 unp",
+      "contoh mata kuliah teknik mesin s1",
+      "apa saja mata kuliah teknik mesin?",
+      "mata kuliah teknik mesin apa saja?",
+      "kurikulum teknik mesin unp"
+    ],
+    "answer": "Sebagian mata kuliah Teknik Mesin (S1) yang tercantum pada halaman kurikulum prodi: Matematika Dasar; Material Teknik; Menggambar Teknik; Termodinamika 1; Mekanika Fluida 1; Elemen Mesin 1; Teknik Manufaktur 1; Mekatronika. Sumber: https://tm.ft.unp.ac.id/mata-kuliah-tahun-2026/ (diakses 10 November 2026). Ini cuplikan daftar, bukan seluruh kurikulum; sesuaikan dengan tahun kurikulum dan angkatan mahasiswa."
+  },
+  {
+    "id": "jadwal-resmi-teknik-mesin-s1",
+    "questions": [
+      "kapan jadwal kuliah teknik mesin s1?",
+      "jadwal kuliah teknik mesin s1",
+      "jadwal resmi teknik mesin s1 semester ini",
+      "jadwal kuliah teknik mesin",
+      "kapan jadwal kuliah teknik mesin?"
+    ],
+    "answer": "Jadwal resmi Teknik Mesin (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://tm.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-mesin-s1",
+    "questions": [
+      "contoh jadwal kuliah teknik mesin s1",
+      "jadwal simulasi teknik mesin s1",
+      "contoh jadwal demo teknik mesin s1",
+      "contoh jadwal kuliah teknik mesin"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Mesin (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Matematika Dasar, Jumat 08.00-09.40 WIB, ruang DEMO-05-A. Contoh sesi teori kedua: Material Teknik, Selasa 10.00-11.40 WIB, ruang DEMO-05-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-mesin-d3",
+    "questions": [
+      "apa itu prodi teknik mesin d3?",
+      "teknik mesin d3 termasuk departemen apa?",
+      "di mana informasi prodi teknik mesin d3 unp?"
+    ],
+    "answer": "Teknik Mesin (D3) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Mesin. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://d3tm.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-mesin-d3",
+    "questions": [
+      "apa saja mata kuliah teknik mesin d3?",
+      "mata kuliah apa saja di prodi teknik mesin d3?",
+      "kurikulum teknik mesin d3 unp",
+      "contoh mata kuliah teknik mesin d3"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Mesin (D3) UNP. Contoh mata kuliah/topik bidang ini: Gambar Mesin; Kerja Bangku; Praktik Pemesinan; Teknik Pengelasan; Perawatan Mesin; CAD dan CAM. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://d3tm.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-mesin-d3",
+    "questions": [
+      "kapan jadwal kuliah teknik mesin d3?",
+      "jadwal kuliah teknik mesin d3",
+      "jadwal resmi teknik mesin d3 semester ini"
+    ],
+    "answer": "Jadwal resmi Teknik Mesin (D3) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://d3tm.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-mesin-d3",
+    "questions": [
+      "contoh jadwal kuliah teknik mesin d3",
+      "jadwal simulasi teknik mesin d3",
+      "contoh jadwal demo teknik mesin d3"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Mesin (D3), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Gambar Mesin, Senin 08.00-09.40 WIB, ruang DEMO-06-A. Contoh sesi teori kedua: Kerja Bangku, Rabu 10.00-11.40 WIB, ruang DEMO-06-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-pendidikan-teknik-otomotif-s1",
+    "questions": [
+      "apa itu prodi pendidikan teknik otomotif s1?",
+      "pendidikan teknik otomotif s1 termasuk departemen apa?",
+      "di mana informasi prodi pendidikan teknik otomotif s1 unp?"
+    ],
+    "answer": "Pendidikan Teknik Otomotif (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Otomotif. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: http://otomotif.ft.unp.ac.id/en/program-studi/program-studi-pendidikan-teknik-otomotif/"
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-otomotif-s1",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik otomotif s1?",
+      "mata kuliah apa saja di prodi pendidikan teknik otomotif s1?",
+      "kurikulum pendidikan teknik otomotif s1 unp",
+      "contoh mata kuliah pendidikan teknik otomotif s1",
+      "apa saja mata kuliah pendidikan teknik otomotif?",
+      "mata kuliah pendidikan teknik otomotif apa saja?",
+      "kurikulum pendidikan teknik otomotif unp",
+      "apa saja mata kuliah pto?",
+      "mata kuliah pto apa saja?",
+      "kurikulum pto unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Pendidikan Teknik Otomotif (S1) UNP. Contoh mata kuliah/topik bidang ini: Teknologi Motor Bakar; Sistem Pemindah Tenaga; Kelistrikan Otomotif; Sistem Bahan Bakar; Media Pembelajaran; Evaluasi Pembelajaran. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa http://otomotif.ft.unp.ac.id/en/program-studi/program-studi-pendidikan-teknik-otomotif/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-pendidikan-teknik-otomotif-s1",
+    "questions": [
+      "kapan jadwal kuliah pendidikan teknik otomotif s1?",
+      "jadwal kuliah pendidikan teknik otomotif s1",
+      "jadwal resmi pendidikan teknik otomotif s1 semester ini",
+      "jadwal kuliah pendidikan teknik otomotif",
+      "kapan jadwal kuliah pendidikan teknik otomotif?",
+      "jadwal kuliah pto",
+      "kapan jadwal kuliah pto?"
+    ],
+    "answer": "Jadwal resmi Pendidikan Teknik Otomotif (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi http://otomotif.ft.unp.ac.id/en/program-studi/program-studi-pendidikan-teknik-otomotif/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-pendidikan-teknik-otomotif-s1",
+    "questions": [
+      "contoh jadwal kuliah pendidikan teknik otomotif s1",
+      "jadwal simulasi pendidikan teknik otomotif s1",
+      "contoh jadwal demo pendidikan teknik otomotif s1",
+      "contoh jadwal kuliah pendidikan teknik otomotif",
+      "contoh jadwal kuliah pto"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Pendidikan Teknik Otomotif (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Teknologi Motor Bakar, Selasa 08.00-09.40 WIB, ruang DEMO-07-A. Contoh sesi teori kedua: Sistem Pemindah Tenaga, Kamis 10.00-11.40 WIB, ruang DEMO-07-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-otomotif-d3",
+    "questions": [
+      "apa itu prodi teknik otomotif d3?",
+      "teknik otomotif d3 termasuk departemen apa?",
+      "di mana informasi prodi teknik otomotif d3 unp?"
+    ],
+    "answer": "Teknik Otomotif (D3) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Otomotif. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: http://otomotif.ft.unp.ac.id/en/program-studi/program-studi-teknik-otomotif/"
+  },
+  {
+    "id": "mata-kuliah-teknik-otomotif-d3",
+    "questions": [
+      "apa saja mata kuliah teknik otomotif d3?",
+      "mata kuliah apa saja di prodi teknik otomotif d3?",
+      "kurikulum teknik otomotif d3 unp",
+      "contoh mata kuliah teknik otomotif d3",
+      "apa saja mata kuliah teknik otomotif?",
+      "mata kuliah teknik otomotif apa saja?",
+      "kurikulum teknik otomotif unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Otomotif (D3) UNP. Contoh mata kuliah/topik bidang ini: Motor Bensin; Motor Diesel; Chasis Otomotif; Kelistrikan Otomotif; Perawatan Kendaraan; Diagnosis Kendaraan. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa http://otomotif.ft.unp.ac.id/en/program-studi/program-studi-teknik-otomotif/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-otomotif-d3",
+    "questions": [
+      "kapan jadwal kuliah teknik otomotif d3?",
+      "jadwal kuliah teknik otomotif d3",
+      "jadwal resmi teknik otomotif d3 semester ini",
+      "jadwal kuliah teknik otomotif",
+      "kapan jadwal kuliah teknik otomotif?"
+    ],
+    "answer": "Jadwal resmi Teknik Otomotif (D3) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi http://otomotif.ft.unp.ac.id/en/program-studi/program-studi-teknik-otomotif/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-otomotif-d3",
+    "questions": [
+      "contoh jadwal kuliah teknik otomotif d3",
+      "jadwal simulasi teknik otomotif d3",
+      "contoh jadwal demo teknik otomotif d3",
+      "contoh jadwal kuliah teknik otomotif"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Otomotif (D3), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Motor Bensin, Rabu 08.00-09.40 WIB, ruang DEMO-08-A. Contoh sesi teori kedua: Motor Diesel, Jumat 10.00-11.40 WIB, ruang DEMO-08-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-otomotif-sawahlunto-d3",
+    "questions": [
+      "apa itu prodi teknik otomotif sawahlunto d3?",
+      "teknik otomotif sawahlunto d3 termasuk departemen apa?",
+      "di mana informasi prodi teknik otomotif sawahlunto d3 unp?"
+    ],
+    "answer": "Teknik Otomotif Sawahlunto (D3) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Otomotif. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-otomotif-sawahlunto-d3",
+    "questions": [
+      "apa saja mata kuliah teknik otomotif sawahlunto d3?",
+      "mata kuliah apa saja di prodi teknik otomotif sawahlunto d3?",
+      "kurikulum teknik otomotif sawahlunto d3 unp",
+      "contoh mata kuliah teknik otomotif sawahlunto d3"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Otomotif Sawahlunto (D3) UNP. Contoh mata kuliah/topik bidang ini: Motor Bakar; Kelistrikan Kendaraan; Sistem Pemindah Tenaga; Perawatan Kendaraan; Keselamatan Kerja; Praktik Bengkel. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-otomotif-sawahlunto-d3",
+    "questions": [
+      "kapan jadwal kuliah teknik otomotif sawahlunto d3?",
+      "jadwal kuliah teknik otomotif sawahlunto d3",
+      "jadwal resmi teknik otomotif sawahlunto d3 semester ini"
+    ],
+    "answer": "Jadwal resmi Teknik Otomotif Sawahlunto (D3) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-otomotif-sawahlunto-d3",
+    "questions": [
+      "contoh jadwal kuliah teknik otomotif sawahlunto d3",
+      "jadwal simulasi teknik otomotif sawahlunto d3",
+      "contoh jadwal demo teknik otomotif sawahlunto d3"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Otomotif Sawahlunto (D3), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Motor Bakar, Kamis 08.00-09.40 WIB, ruang DEMO-09-A. Contoh sesi teori kedua: Kelistrikan Kendaraan, Senin 10.00-11.40 WIB, ruang DEMO-09-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-pendidikan-teknik-elektro-s1",
+    "questions": [
+      "apa itu prodi pendidikan teknik elektro s1?",
+      "pendidikan teknik elektro s1 termasuk departemen apa?",
+      "di mana informasi prodi pendidikan teknik elektro s1 unp?"
+    ],
+    "answer": "Pendidikan Teknik Elektro (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Elektro. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://elektros1.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-elektro-s1",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik elektro s1?",
+      "mata kuliah apa saja di prodi pendidikan teknik elektro s1?",
+      "kurikulum pendidikan teknik elektro s1 unp",
+      "contoh mata kuliah pendidikan teknik elektro s1",
+      "apa saja mata kuliah pendidikan teknik elektro?",
+      "mata kuliah pendidikan teknik elektro apa saja?",
+      "kurikulum pendidikan teknik elektro unp"
+    ],
+    "answer": "Sebagian mata kuliah Pendidikan Teknik Elektro (S1) yang tercantum pada halaman kurikulum prodi: Kalkulus; Ilmu Bahan Listrik; Rangkaian Listrik; Mesin-mesin Listrik; Pembangkit Tenaga Listrik; Elektronika Daya; Pedagogi Kejuruan; Metode Mengajar Khusus. Sumber: https://elektro.ft.unp.ac.id/index.php/kurikulum-s1-pendidikan-teknik-elektro/ (diakses 10 November 2026). Ini cuplikan daftar, bukan seluruh kurikulum; sesuaikan dengan tahun kurikulum dan angkatan mahasiswa."
+  },
+  {
+    "id": "jadwal-resmi-pendidikan-teknik-elektro-s1",
+    "questions": [
+      "kapan jadwal kuliah pendidikan teknik elektro s1?",
+      "jadwal kuliah pendidikan teknik elektro s1",
+      "jadwal resmi pendidikan teknik elektro s1 semester ini",
+      "jadwal kuliah pendidikan teknik elektro",
+      "kapan jadwal kuliah pendidikan teknik elektro?"
+    ],
+    "answer": "Jadwal resmi Pendidikan Teknik Elektro (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://elektros1.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-pendidikan-teknik-elektro-s1",
+    "questions": [
+      "contoh jadwal kuliah pendidikan teknik elektro s1",
+      "jadwal simulasi pendidikan teknik elektro s1",
+      "contoh jadwal demo pendidikan teknik elektro s1",
+      "contoh jadwal kuliah pendidikan teknik elektro"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Pendidikan Teknik Elektro (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Kalkulus, Jumat 08.00-09.40 WIB, ruang DEMO-10-A. Contoh sesi teori kedua: Ilmu Bahan Listrik, Selasa 10.00-11.40 WIB, ruang DEMO-10-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-elektro-industri-d4",
+    "questions": [
+      "apa itu prodi teknik elektro industri d4?",
+      "teknik elektro industri d4 termasuk departemen apa?",
+      "di mana informasi prodi teknik elektro industri d4 unp?"
+    ],
+    "answer": "Teknik Elektro Industri (D4) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Elektro. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://elektrod4.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-elektro-industri-d4",
+    "questions": [
+      "apa saja mata kuliah teknik elektro industri d4?",
+      "mata kuliah apa saja di prodi teknik elektro industri d4?",
+      "kurikulum teknik elektro industri d4 unp",
+      "contoh mata kuliah teknik elektro industri d4",
+      "apa saja mata kuliah teknik elektro industri?",
+      "mata kuliah teknik elektro industri apa saja?",
+      "kurikulum teknik elektro industri unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Elektro Industri (D4) UNP. Contoh mata kuliah/topik bidang ini: Rangkaian Listrik; Mesin Listrik; Elektronika Daya; Sistem Kendali; Programmable Logic Controller; Otomasi Industri. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://elektrod4.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-elektro-industri-d4",
+    "questions": [
+      "kapan jadwal kuliah teknik elektro industri d4?",
+      "jadwal kuliah teknik elektro industri d4",
+      "jadwal resmi teknik elektro industri d4 semester ini",
+      "jadwal kuliah teknik elektro industri",
+      "kapan jadwal kuliah teknik elektro industri?"
+    ],
+    "answer": "Jadwal resmi Teknik Elektro Industri (D4) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://elektrod4.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-elektro-industri-d4",
+    "questions": [
+      "contoh jadwal kuliah teknik elektro industri d4",
+      "jadwal simulasi teknik elektro industri d4",
+      "contoh jadwal demo teknik elektro industri d4",
+      "contoh jadwal kuliah teknik elektro industri"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Elektro Industri (D4), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Rangkaian Listrik, Senin 08.00-09.40 WIB, ruang DEMO-11-A. Contoh sesi teori kedua: Mesin Listrik, Rabu 10.00-11.40 WIB, ruang DEMO-11-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-elektro-s1",
+    "questions": [
+      "apa itu prodi teknik elektro s1?",
+      "teknik elektro s1 termasuk departemen apa?",
+      "di mana informasi prodi teknik elektro s1 unp?"
+    ],
+    "answer": "Teknik Elektro (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Elektro. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://elektro.ft.unp.ac.id/index.php/s1-teknik-elektro/"
+  },
+  {
+    "id": "mata-kuliah-teknik-elektro-s1",
+    "questions": [
+      "apa saja mata kuliah teknik elektro s1?",
+      "mata kuliah apa saja di prodi teknik elektro s1?",
+      "kurikulum teknik elektro s1 unp",
+      "contoh mata kuliah teknik elektro s1",
+      "apa saja mata kuliah teknik elektro?",
+      "mata kuliah teknik elektro apa saja?",
+      "kurikulum teknik elektro unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Elektro (S1) UNP. Contoh mata kuliah/topik bidang ini: Rangkaian Listrik; Medan Elektromagnetik; Elektronika; Sistem Tenaga Listrik; Sistem Kendali; Pengolahan Sinyal. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://elektro.ft.unp.ac.id/index.php/s1-teknik-elektro/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-elektro-s1",
+    "questions": [
+      "kapan jadwal kuliah teknik elektro s1?",
+      "jadwal kuliah teknik elektro s1",
+      "jadwal resmi teknik elektro s1 semester ini",
+      "jadwal kuliah teknik elektro",
+      "kapan jadwal kuliah teknik elektro?"
+    ],
+    "answer": "Jadwal resmi Teknik Elektro (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://elektro.ft.unp.ac.id/index.php/s1-teknik-elektro/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-elektro-s1",
+    "questions": [
+      "contoh jadwal kuliah teknik elektro s1",
+      "jadwal simulasi teknik elektro s1",
+      "contoh jadwal demo teknik elektro s1",
+      "contoh jadwal kuliah teknik elektro"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Elektro (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Rangkaian Listrik, Selasa 08.00-09.40 WIB, ruang DEMO-12-A. Contoh sesi teori kedua: Medan Elektromagnetik, Kamis 10.00-11.40 WIB, ruang DEMO-12-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-listrik-d3",
+    "questions": [
+      "apa itu prodi teknik listrik d3?",
+      "teknik listrik d3 termasuk departemen apa?",
+      "di mana informasi prodi teknik listrik d3 unp?"
+    ],
+    "answer": "Teknik Listrik (D3) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Elektro. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://elektrod3.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-listrik-d3",
+    "questions": [
+      "apa saja mata kuliah teknik listrik d3?",
+      "mata kuliah apa saja di prodi teknik listrik d3?",
+      "kurikulum teknik listrik d3 unp",
+      "contoh mata kuliah teknik listrik d3",
+      "apa saja mata kuliah teknik listrik?",
+      "mata kuliah teknik listrik apa saja?",
+      "kurikulum teknik listrik unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Listrik (D3) UNP. Contoh mata kuliah/topik bidang ini: Rangkaian Listrik; Instalasi Listrik; Pengukuran Listrik; Mesin Listrik; Proteksi Listrik; Perawatan Instalasi. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://elektrod3.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-listrik-d3",
+    "questions": [
+      "kapan jadwal kuliah teknik listrik d3?",
+      "jadwal kuliah teknik listrik d3",
+      "jadwal resmi teknik listrik d3 semester ini",
+      "jadwal kuliah teknik listrik",
+      "kapan jadwal kuliah teknik listrik?"
+    ],
+    "answer": "Jadwal resmi Teknik Listrik (D3) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://elektrod3.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-listrik-d3",
+    "questions": [
+      "contoh jadwal kuliah teknik listrik d3",
+      "jadwal simulasi teknik listrik d3",
+      "contoh jadwal demo teknik listrik d3",
+      "contoh jadwal kuliah teknik listrik"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Listrik (D3), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Rangkaian Listrik, Rabu 08.00-09.40 WIB, ruang DEMO-13-A. Contoh sesi teori kedua: Instalasi Listrik, Jumat 10.00-11.40 WIB, ruang DEMO-13-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-pendidikan-teknik-elektronika-s1",
+    "questions": [
+      "apa itu prodi pendidikan teknik elektronika s1?",
+      "pendidikan teknik elektronika s1 termasuk departemen apa?",
+      "di mana informasi prodi pendidikan teknik elektronika s1 unp?"
+    ],
+    "answer": "Pendidikan Teknik Elektronika (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Elektronika. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://pte.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-elektronika-s1",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik elektronika s1?",
+      "mata kuliah apa saja di prodi pendidikan teknik elektronika s1?",
+      "kurikulum pendidikan teknik elektronika s1 unp",
+      "contoh mata kuliah pendidikan teknik elektronika s1",
+      "apa saja mata kuliah pendidikan teknik elektronika?",
+      "mata kuliah pendidikan teknik elektronika apa saja?",
+      "kurikulum pendidikan teknik elektronika unp"
+    ],
+    "answer": "Sebagian mata kuliah Pendidikan Teknik Elektronika (S1) yang tercantum pada halaman kurikulum prodi: Rangkaian Listrik; Komponen Elektronika; Sistem Telekomunikasi; Algoritma Pemrograman; Teknik Digital; Jaringan Komputer; Sistem Mikroprosesor dan Mikrokontroler; Pengolahan Sinyal Digital. Sumber: https://pte.ft.unp.ac.id/index.php/struktur-kurikulum/ (diakses 10 November 2026). Ini cuplikan daftar, bukan seluruh kurikulum; sesuaikan dengan tahun kurikulum dan angkatan mahasiswa."
+  },
+  {
+    "id": "jadwal-resmi-pendidikan-teknik-elektronika-s1",
+    "questions": [
+      "kapan jadwal kuliah pendidikan teknik elektronika s1?",
+      "jadwal kuliah pendidikan teknik elektronika s1",
+      "jadwal resmi pendidikan teknik elektronika s1 semester ini",
+      "jadwal kuliah pendidikan teknik elektronika",
+      "kapan jadwal kuliah pendidikan teknik elektronika?"
+    ],
+    "answer": "Jadwal resmi Pendidikan Teknik Elektronika (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://pte.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-pendidikan-teknik-elektronika-s1",
+    "questions": [
+      "contoh jadwal kuliah pendidikan teknik elektronika s1",
+      "jadwal simulasi pendidikan teknik elektronika s1",
+      "contoh jadwal demo pendidikan teknik elektronika s1",
+      "contoh jadwal kuliah pendidikan teknik elektronika"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Pendidikan Teknik Elektronika (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Rangkaian Listrik, Kamis 08.00-09.40 WIB, ruang DEMO-14-A. Contoh sesi teori kedua: Komponen Elektronika, Senin 10.00-11.40 WIB, ruang DEMO-14-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-pendidikan-teknik-informatika-s1",
+    "questions": [
+      "apa itu prodi pendidikan teknik informatika s1?",
+      "pendidikan teknik informatika s1 termasuk departemen apa?",
+      "di mana informasi prodi pendidikan teknik informatika s1 unp?"
+    ],
+    "answer": "Pendidikan Teknik Informatika (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Elektronika. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://pti.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-informatika-s1",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik informatika s1?",
+      "mata kuliah apa saja di prodi pendidikan teknik informatika s1?",
+      "kurikulum pendidikan teknik informatika s1 unp",
+      "contoh mata kuliah pendidikan teknik informatika s1",
+      "apa saja mata kuliah pendidikan teknik informatika?",
+      "mata kuliah pendidikan teknik informatika apa saja?",
+      "kurikulum pendidikan teknik informatika unp",
+      "apa saja mata kuliah pti?",
+      "mata kuliah pti apa saja?",
+      "kurikulum pti unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Pendidikan Teknik Informatika (S1) UNP. Contoh mata kuliah/topik bidang ini: Algoritma dan Pemrograman; Basis Data; Jaringan Komputer; Rekayasa Perangkat Lunak; Media Pembelajaran; Evaluasi Pembelajaran. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://pti.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-pendidikan-teknik-informatika-s1",
+    "questions": [
+      "kapan jadwal kuliah pendidikan teknik informatika s1?",
+      "jadwal kuliah pendidikan teknik informatika s1",
+      "jadwal resmi pendidikan teknik informatika s1 semester ini",
+      "jadwal kuliah pendidikan teknik informatika",
+      "kapan jadwal kuliah pendidikan teknik informatika?",
+      "jadwal kuliah pti",
+      "kapan jadwal kuliah pti?"
+    ],
+    "answer": "Jadwal resmi Pendidikan Teknik Informatika (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://pti.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-pendidikan-teknik-informatika-s1",
+    "questions": [
+      "contoh jadwal kuliah pendidikan teknik informatika s1",
+      "jadwal simulasi pendidikan teknik informatika s1",
+      "contoh jadwal demo pendidikan teknik informatika s1",
+      "contoh jadwal kuliah pendidikan teknik informatika",
+      "contoh jadwal kuliah pti"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Pendidikan Teknik Informatika (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Algoritma dan Pemrograman, Jumat 08.00-09.40 WIB, ruang DEMO-15-A. Contoh sesi teori kedua: Basis Data, Selasa 10.00-11.40 WIB, ruang DEMO-15-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-trse-d4",
+    "questions": [
+      "apa itu prodi teknologi rekayasa sistem elektronika d4?",
+      "teknologi rekayasa sistem elektronika d4 termasuk departemen apa?",
+      "di mana informasi prodi teknologi rekayasa sistem elektronika d4 unp?"
+    ],
+    "answer": "Teknologi Rekayasa Sistem Elektronika (D4) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Elektronika. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://trse.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-trse-d4",
+    "questions": [
+      "apa saja mata kuliah teknologi rekayasa sistem elektronika d4?",
+      "mata kuliah apa saja di prodi teknologi rekayasa sistem elektronika d4?",
+      "kurikulum teknologi rekayasa sistem elektronika d4 unp",
+      "contoh mata kuliah teknologi rekayasa sistem elektronika d4",
+      "apa saja mata kuliah trse?",
+      "mata kuliah trse apa saja?",
+      "kurikulum trse unp",
+      "apa saja mata kuliah teknologi rekayasa sistem elektronika?",
+      "mata kuliah teknologi rekayasa sistem elektronika apa saja?",
+      "kurikulum teknologi rekayasa sistem elektronika unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknologi Rekayasa Sistem Elektronika (D4) UNP. Contoh mata kuliah/topik bidang ini: Elektronika Analog; Elektronika Digital; Mikrokontroler; Sensor dan Instrumentasi; Sistem Kendali; Internet of Things. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://trse.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-trse-d4",
+    "questions": [
+      "kapan jadwal kuliah teknologi rekayasa sistem elektronika d4?",
+      "jadwal kuliah teknologi rekayasa sistem elektronika d4",
+      "jadwal resmi teknologi rekayasa sistem elektronika d4 semester ini",
+      "jadwal kuliah trse",
+      "kapan jadwal kuliah trse?",
+      "jadwal kuliah teknologi rekayasa sistem elektronika",
+      "kapan jadwal kuliah teknologi rekayasa sistem elektronika?"
+    ],
+    "answer": "Jadwal resmi Teknologi Rekayasa Sistem Elektronika (D4) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://trse.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-trse-d4",
+    "questions": [
+      "contoh jadwal kuliah teknologi rekayasa sistem elektronika d4",
+      "jadwal simulasi teknologi rekayasa sistem elektronika d4",
+      "contoh jadwal demo teknologi rekayasa sistem elektronika d4",
+      "contoh jadwal kuliah trse",
+      "contoh jadwal kuliah teknologi rekayasa sistem elektronika"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknologi Rekayasa Sistem Elektronika (D4), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Elektronika Analog, Senin 08.00-09.40 WIB, ruang DEMO-16-A. Contoh sesi teori kedua: Elektronika Digital, Rabu 10.00-11.40 WIB, ruang DEMO-16-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-informatika-s1",
+    "questions": [
+      "apa itu prodi informatika s1?",
+      "informatika s1 termasuk departemen apa?",
+      "di mana informasi prodi informatika s1 unp?"
+    ],
+    "answer": "Informatika (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Elektronika. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://informatika.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-informatika-s1",
+    "questions": [
+      "apa saja mata kuliah informatika s1?",
+      "mata kuliah apa saja di prodi informatika s1?",
+      "kurikulum informatika s1 unp",
+      "contoh mata kuliah informatika s1",
+      "apa saja mata kuliah informatika?",
+      "mata kuliah informatika apa saja?",
+      "kurikulum informatika unp",
+      "apa saja mata kuliah teknik informatika?",
+      "mata kuliah teknik informatika apa saja?",
+      "kurikulum teknik informatika unp",
+      "apa saja mata kuliah if?",
+      "mata kuliah if apa saja?",
+      "kurikulum if unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Informatika (S1) UNP. Contoh mata kuliah/topik bidang ini: Algoritma dan Pemrograman; Struktur Data; Basis Data; Jaringan Komputer; Sistem Operasi; Rekayasa Perangkat Lunak; Kecerdasan Buatan; Keamanan Siber. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://informatika.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-informatika-s1",
+    "questions": [
+      "kapan jadwal kuliah informatika s1?",
+      "jadwal kuliah informatika s1",
+      "jadwal resmi informatika s1 semester ini",
+      "jadwal kuliah informatika",
+      "kapan jadwal kuliah informatika?",
+      "jadwal kuliah teknik informatika",
+      "kapan jadwal kuliah teknik informatika?",
+      "jadwal kuliah if",
+      "kapan jadwal kuliah if?"
+    ],
+    "answer": "Jadwal resmi Informatika (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://informatika.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-informatika-s1",
+    "questions": [
+      "contoh jadwal kuliah informatika s1",
+      "jadwal simulasi informatika s1",
+      "contoh jadwal demo informatika s1",
+      "contoh jadwal kuliah informatika",
+      "contoh jadwal kuliah teknik informatika",
+      "contoh jadwal kuliah if"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Informatika (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Algoritma dan Pemrograman, Selasa 08.00-09.40 WIB, ruang DEMO-17-A. Contoh sesi teori kedua: Struktur Data, Kamis 10.00-11.40 WIB, ruang DEMO-17-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-pertambangan-s1",
+    "questions": [
+      "apa itu prodi teknik pertambangan s1?",
+      "teknik pertambangan s1 termasuk departemen apa?",
+      "di mana informasi prodi teknik pertambangan s1 unp?"
+    ],
+    "answer": "Teknik Pertambangan (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Pertambangan. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: http://sarjanapertambangan.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-pertambangan-s1",
+    "questions": [
+      "apa saja mata kuliah teknik pertambangan s1?",
+      "mata kuliah apa saja di prodi teknik pertambangan s1?",
+      "kurikulum teknik pertambangan s1 unp",
+      "contoh mata kuliah teknik pertambangan s1",
+      "apa saja mata kuliah teknik pertambangan?",
+      "mata kuliah teknik pertambangan apa saja?",
+      "kurikulum teknik pertambangan unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Pertambangan (S1) UNP. Contoh mata kuliah/topik bidang ini: Geologi Dasar; Mekanika Batuan; Eksplorasi Tambang; Sistem Penambangan; Ventilasi Tambang; Perencanaan Tambang. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa http://sarjanapertambangan.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-pertambangan-s1",
+    "questions": [
+      "kapan jadwal kuliah teknik pertambangan s1?",
+      "jadwal kuliah teknik pertambangan s1",
+      "jadwal resmi teknik pertambangan s1 semester ini",
+      "jadwal kuliah teknik pertambangan",
+      "kapan jadwal kuliah teknik pertambangan?"
+    ],
+    "answer": "Jadwal resmi Teknik Pertambangan (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi http://sarjanapertambangan.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-pertambangan-s1",
+    "questions": [
+      "contoh jadwal kuliah teknik pertambangan s1",
+      "jadwal simulasi teknik pertambangan s1",
+      "contoh jadwal demo teknik pertambangan s1",
+      "contoh jadwal kuliah teknik pertambangan"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Pertambangan (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Geologi Dasar, Rabu 08.00-09.40 WIB, ruang DEMO-18-A. Contoh sesi teori kedua: Mekanika Batuan, Jumat 10.00-11.40 WIB, ruang DEMO-18-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-pertambangan-d3",
+    "questions": [
+      "apa itu prodi teknik pertambangan d3?",
+      "teknik pertambangan d3 termasuk departemen apa?",
+      "di mana informasi prodi teknik pertambangan d3 unp?"
+    ],
+    "answer": "Teknik Pertambangan (D3) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Pertambangan. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: http://diplomapertambangan.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-pertambangan-d3",
+    "questions": [
+      "apa saja mata kuliah teknik pertambangan d3?",
+      "mata kuliah apa saja di prodi teknik pertambangan d3?",
+      "kurikulum teknik pertambangan d3 unp",
+      "contoh mata kuliah teknik pertambangan d3"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Pertambangan (D3) UNP. Contoh mata kuliah/topik bidang ini: Pemetaan Tambang; Pemboran dan Peledakan; Pengolahan Bahan Galian; Peralatan Tambang; Keselamatan Pertambangan; Praktik Lapangan. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa http://diplomapertambangan.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-pertambangan-d3",
+    "questions": [
+      "kapan jadwal kuliah teknik pertambangan d3?",
+      "jadwal kuliah teknik pertambangan d3",
+      "jadwal resmi teknik pertambangan d3 semester ini"
+    ],
+    "answer": "Jadwal resmi Teknik Pertambangan (D3) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi http://diplomapertambangan.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-pertambangan-d3",
+    "questions": [
+      "contoh jadwal kuliah teknik pertambangan d3",
+      "jadwal simulasi teknik pertambangan d3",
+      "contoh jadwal demo teknik pertambangan d3"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Pertambangan (D3), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Pemetaan Tambang, Kamis 08.00-09.40 WIB, ruang DEMO-19-A. Contoh sesi teori kedua: Pemboran dan Peledakan, Senin 10.00-11.40 WIB, ruang DEMO-19-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-geologi-s1",
+    "questions": [
+      "apa itu prodi teknik geologi s1?",
+      "teknik geologi s1 termasuk departemen apa?",
+      "di mana informasi prodi teknik geologi s1 unp?"
+    ],
+    "answer": "Teknik Geologi (S1) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Pertambangan. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-geologi-s1",
+    "questions": [
+      "apa saja mata kuliah teknik geologi s1?",
+      "mata kuliah apa saja di prodi teknik geologi s1?",
+      "kurikulum teknik geologi s1 unp",
+      "contoh mata kuliah teknik geologi s1",
+      "apa saja mata kuliah teknik geologi?",
+      "mata kuliah teknik geologi apa saja?",
+      "kurikulum teknik geologi unp"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Geologi (S1) UNP. Contoh mata kuliah/topik bidang ini: Geologi Fisik; Mineralogi; Petrologi; Stratigrafi; Geologi Struktur; Pemetaan Geologi. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-geologi-s1",
+    "questions": [
+      "kapan jadwal kuliah teknik geologi s1?",
+      "jadwal kuliah teknik geologi s1",
+      "jadwal resmi teknik geologi s1 semester ini",
+      "jadwal kuliah teknik geologi",
+      "kapan jadwal kuliah teknik geologi?"
+    ],
+    "answer": "Jadwal resmi Teknik Geologi (S1) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-geologi-s1",
+    "questions": [
+      "contoh jadwal kuliah teknik geologi s1",
+      "jadwal simulasi teknik geologi s1",
+      "contoh jadwal demo teknik geologi s1",
+      "contoh jadwal kuliah teknik geologi"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Geologi (S1), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Geologi Fisik, Jumat 08.00-09.40 WIB, ruang DEMO-20-A. Contoh sesi teori kedua: Mineralogi, Selasa 10.00-11.40 WIB, ruang DEMO-20-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-teknik-pertambangan-sawahlunto-d3",
+    "questions": [
+      "apa itu prodi teknik pertambangan sawahlunto d3?",
+      "teknik pertambangan sawahlunto d3 termasuk departemen apa?",
+      "di mana informasi prodi teknik pertambangan sawahlunto d3 unp?"
+    ],
+    "answer": "Teknik Pertambangan Sawahlunto (D3) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Teknik Pertambangan. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: http://diplomapertambangan.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-pertambangan-sawahlunto-d3",
+    "questions": [
+      "apa saja mata kuliah teknik pertambangan sawahlunto d3?",
+      "mata kuliah apa saja di prodi teknik pertambangan sawahlunto d3?",
+      "kurikulum teknik pertambangan sawahlunto d3 unp",
+      "contoh mata kuliah teknik pertambangan sawahlunto d3"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Pertambangan Sawahlunto (D3) UNP. Contoh mata kuliah/topik bidang ini: Geologi Dasar; Pemetaan Tambang; Teknik Pemboran; Peralatan Tambang; Keselamatan Pertambangan; Praktik Tambang. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa http://diplomapertambangan.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-pertambangan-sawahlunto-d3",
+    "questions": [
+      "kapan jadwal kuliah teknik pertambangan sawahlunto d3?",
+      "jadwal kuliah teknik pertambangan sawahlunto d3",
+      "jadwal resmi teknik pertambangan sawahlunto d3 semester ini"
+    ],
+    "answer": "Jadwal resmi Teknik Pertambangan Sawahlunto (D3) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi http://diplomapertambangan.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "jadwal-simulasi-teknik-pertambangan-sawahlunto-d3",
+    "questions": [
+      "contoh jadwal kuliah teknik pertambangan sawahlunto d3",
+      "jadwal simulasi teknik pertambangan sawahlunto d3",
+      "contoh jadwal demo teknik pertambangan sawahlunto d3"
+    ],
+    "answer": "SIMULASI FIKTIF untuk demo Teknik Pertambangan Sawahlunto (D3), bukan jadwal resmi UNP dan tidak terikat tahun akademik, semester, angkatan, atau kelas nyata. Contoh sesi teori: Geologi Dasar, Senin 08.00-09.40 WIB, ruang DEMO-21-A. Contoh sesi teori kedua: Pemetaan Tambang, Rabu 10.00-11.40 WIB, ruang DEMO-21-B. Nama mata kuliah pada jadwal ini dipakai sebagai contoh; dosen, kode, SKS dan kelas tidak ditetapkan. Gunakan Portal Akademik untuk jadwal aktual."
+  },
+  {
+    "id": "prodi-ptk-s2",
+    "questions": [
+      "apa itu prodi pendidikan teknologi dan kejuruan s2?",
+      "pendidikan teknologi dan kejuruan s2 termasuk departemen apa?",
+      "di mana informasi prodi pendidikan teknologi dan kejuruan s2 unp?"
+    ],
+    "answer": "Pendidikan Teknologi dan Kejuruan (S2) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Pascasarjana. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://magister.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-ptk-s2",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknologi dan kejuruan s2?",
+      "mata kuliah apa saja di prodi pendidikan teknologi dan kejuruan s2?",
+      "kurikulum pendidikan teknologi dan kejuruan s2 unp",
+      "contoh mata kuliah pendidikan teknologi dan kejuruan s2"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Pendidikan Teknologi dan Kejuruan (S2) UNP. Contoh mata kuliah/topik bidang ini: Filsafat Pendidikan Kejuruan; Metodologi Penelitian; Statistika Penelitian; Pengembangan Kurikulum Kejuruan; Evaluasi Pendidikan; Tesis. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://magister.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-ptk-s2",
+    "questions": [
+      "kapan jadwal kuliah pendidikan teknologi dan kejuruan s2?",
+      "jadwal kuliah pendidikan teknologi dan kejuruan s2",
+      "jadwal resmi pendidikan teknologi dan kejuruan s2 semester ini"
+    ],
+    "answer": "Jadwal resmi Pendidikan Teknologi dan Kejuruan (S2) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://magister.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "prodi-teknik-elektro-s2",
+    "questions": [
+      "apa itu prodi teknik elektro s2?",
+      "teknik elektro s2 termasuk departemen apa?",
+      "di mana informasi prodi teknik elektro s2 unp?"
+    ],
+    "answer": "Teknik Elektro (S2) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Pascasarjana. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://elektro.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-elektro-s2",
+    "questions": [
+      "apa saja mata kuliah teknik elektro s2?",
+      "mata kuliah apa saja di prodi teknik elektro s2?",
+      "kurikulum teknik elektro s2 unp",
+      "contoh mata kuliah teknik elektro s2"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Elektro (S2) UNP. Contoh mata kuliah/topik bidang ini: Matematika Teknik Lanjut; Metode Penelitian; Sistem Tenaga Listrik Lanjut; Sistem Kendali Lanjut; Seminar Penelitian; Tesis. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://elektro.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-elektro-s2",
+    "questions": [
+      "kapan jadwal kuliah teknik elektro s2?",
+      "jadwal kuliah teknik elektro s2",
+      "jadwal resmi teknik elektro s2 semester ini"
+    ],
+    "answer": "Jadwal resmi Teknik Elektro (S2) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://elektro.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "prodi-teknik-mesin-s2",
+    "questions": [
+      "apa itu prodi teknik mesin s2?",
+      "teknik mesin s2 termasuk departemen apa?",
+      "di mana informasi prodi teknik mesin s2 unp?"
+    ],
+    "answer": "Teknik Mesin (S2) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Pascasarjana. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://mesin.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-mesin-s2",
+    "questions": [
+      "apa saja mata kuliah teknik mesin s2?",
+      "mata kuliah apa saja di prodi teknik mesin s2?",
+      "kurikulum teknik mesin s2 unp",
+      "contoh mata kuliah teknik mesin s2"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Mesin (S2) UNP. Contoh mata kuliah/topik bidang ini: Metode Penelitian; Termodinamika Lanjut; Mekanika Fluida Lanjut; Material Lanjut; Seminar Penelitian; Tesis. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://mesin.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-mesin-s2",
+    "questions": [
+      "kapan jadwal kuliah teknik mesin s2?",
+      "jadwal kuliah teknik mesin s2",
+      "jadwal resmi teknik mesin s2 semester ini"
+    ],
+    "answer": "Jadwal resmi Teknik Mesin (S2) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://mesin.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "prodi-teknik-sipil-s2",
+    "questions": [
+      "apa itu prodi teknik sipil s2?",
+      "teknik sipil s2 termasuk departemen apa?",
+      "di mana informasi prodi teknik sipil s2 unp?"
+    ],
+    "answer": "Teknik Sipil (S2) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Pascasarjana. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://sipil.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-teknik-sipil-s2",
+    "questions": [
+      "apa saja mata kuliah teknik sipil s2?",
+      "mata kuliah apa saja di prodi teknik sipil s2?",
+      "kurikulum teknik sipil s2 unp",
+      "contoh mata kuliah teknik sipil s2"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Teknik Sipil (S2) UNP. Contoh mata kuliah/topik bidang ini: Metode Penelitian; Analisis Struktur Lanjut; Geoteknik Lanjut; Manajemen Konstruksi Lanjut; Seminar Penelitian; Tesis. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://sipil.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-teknik-sipil-s2",
+    "questions": [
+      "kapan jadwal kuliah teknik sipil s2?",
+      "jadwal kuliah teknik sipil s2",
+      "jadwal resmi teknik sipil s2 semester ini"
+    ],
+    "answer": "Jadwal resmi Teknik Sipil (S2) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://sipil.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "prodi-ptk-s3",
+    "questions": [
+      "apa itu prodi pendidikan teknologi dan kejuruan s3?",
+      "pendidikan teknologi dan kejuruan s3 termasuk departemen apa?",
+      "di mana informasi prodi pendidikan teknologi dan kejuruan s3 unp?"
+    ],
+    "answer": "Pendidikan Teknologi dan Kejuruan (S3) tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Pascasarjana. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://pps.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-ptk-s3",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknologi dan kejuruan s3?",
+      "mata kuliah apa saja di prodi pendidikan teknologi dan kejuruan s3?",
+      "kurikulum pendidikan teknologi dan kejuruan s3 unp",
+      "contoh mata kuliah pendidikan teknologi dan kejuruan s3"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Pendidikan Teknologi dan Kejuruan (S3) UNP. Contoh mata kuliah/topik bidang ini: Filsafat Ilmu; Metodologi Penelitian Lanjut; Pengembangan Model Pendidikan Kejuruan; Kajian Kebijakan Pendidikan; Seminar Disertasi; Disertasi. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://pps.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-ptk-s3",
+    "questions": [
+      "kapan jadwal kuliah pendidikan teknologi dan kejuruan s3?",
+      "jadwal kuliah pendidikan teknologi dan kejuruan s3",
+      "jadwal resmi pendidikan teknologi dan kejuruan s3 semester ini"
+    ],
+    "answer": "Jadwal resmi Pendidikan Teknologi dan Kejuruan (S3) untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://pps.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "prodi-profesi-insinyur",
+    "questions": [
+      "apa itu prodi program profesi insinyur?",
+      "program profesi insinyur termasuk departemen apa?",
+      "di mana informasi prodi program profesi insinyur unp?"
+    ],
+    "answer": "Program Profesi Insinyur tercantum pada daftar program studi Fakultas Teknik UNP dalam kelompok Profesi. Sumber daftar prodi: https://ft.unp.ac.id/ (diakses 10 November 2026). Daftar pada situs bukan jaminan penerimaan mahasiswa baru pada semua jenjang setiap tahun. Tautan informasi yang dirujuk: https://psppi.ft.unp.ac.id/"
+  },
+  {
+    "id": "mata-kuliah-profesi-insinyur",
+    "questions": [
+      "apa saja mata kuliah program profesi insinyur?",
+      "mata kuliah apa saja di prodi program profesi insinyur?",
+      "kurikulum program profesi insinyur unp",
+      "contoh mata kuliah program profesi insinyur"
+    ],
+    "answer": "SIMULASI untuk pengujian chatbot, bukan daftar kurikulum resmi Program Profesi Insinyur UNP. Contoh mata kuliah/topik bidang ini: Etika Profesi Insinyur; Keselamatan dan Kesehatan Kerja; Profesionalisme Keinsinyuran; Praktik Keinsinyuran; Studi Kasus Keinsinyuran. Nama, kode, SKS, semester, dan status wajib/pilihan belum diverifikasi terhadap kurikulum prodi. Untuk daftar resmi sesuai angkatan, periksa https://psppi.ft.unp.ac.id/ atau http://kurikulum.unp.ac.id/ dan konfirmasi ke prodi."
+  },
+  {
+    "id": "jadwal-resmi-profesi-insinyur",
+    "questions": [
+      "kapan jadwal kuliah program profesi insinyur?",
+      "jadwal kuliah program profesi insinyur",
+      "jadwal resmi program profesi insinyur semester ini"
+    ],
+    "answer": "Jadwal resmi Program Profesi Insinyur untuk semester berjalan belum tersedia di knowledge base. Periksa jadwal kelas pada http://portal2.unp.ac.id/ dan pengumuman prodi https://psppi.ft.unp.ac.id/. Untuk memastikan hari, jam, ruang dan dosen, sebutkan tahun akademik, semester, angkatan, kelas/seksi, serta mata kuliah. Contoh jadwal simulasi di chatbot tidak boleh dipakai sebagai jadwal kuliah aktual."
+  },
+  {
+    "id": "perbedaan-informatika-dan-pti",
+    "questions": [
+      "apa beda informatika dan pendidikan teknik informatika?",
+      "apakah informatika sama dengan pendidikan teknik informatika?",
+      "apa perbedaan if dan pti?"
+    ],
+    "answer": "Informatika (S1) dan Pendidikan Teknik Informatika (S1) adalah dua prodi berbeda yang tercantum pada kelompok Teknik Elektronika di situs FT UNP. Informatika berfokus pada bidang komputasi; Pendidikan Teknik Informatika menggabungkan keilmuan informatika dengan kependidikan. Detail mata kuliah dan profil lulusan harus mengikuti dokumen masing-masing prodi. Sumber daftar: https://ft.unp.ac.id/; sumber Informatika: https://informatika.ft.unp.ac.id/."
+  },
+  {
+    "id": "jadwal-kuliah-umum",
+    "questions": [
+      "bagaimana melihat jadwal kuliah?",
+      "di mana melihat jadwal kuliah unp?",
+      "jadwal kuliah semester ini",
+      "jadwal kuliah hari ini",
+      "kapan kuliah saya?"
+    ],
+    "answer": "Jadwal kuliah resmi dan jadwal pribadi tidak tersimpan di chatbot. Lihat jadwal serta kelas yang diambil pada Portal Akademik http://portal2.unp.ac.id/ dan pengumuman prodi. Jadwal bergantung pada tahun akademik, semester, mata kuliah dan kelas/seksi. Chatbot tidak membaca akun mahasiswa dan tidak mengetahui jadwal hari ini secara langsung."
+  },
+  {
+    "id": "jadwal-bentrok",
+    "questions": [
+      "bagaimana jika jadwal kuliah bentrok?",
+      "apa yang dilakukan jika jadwal bentrok?",
+      "jadwal kuliah saya bertabrakan"
+    ],
+    "answer": "Panduan umum: catat kedua mata kuliah, kelas/seksi, hari dan jam yang bentrok; periksa pilihan kelas lain; lalu konsultasikan perubahan KRS dengan dosen penasihat akademik dan pengelola prodi. Chatbot tidak dapat mengganti KRS atau memastikan kelas yang masih tersedia. Ikuti prosedur dan periode perubahan KRS yang diumumkan UNP."
+  },
+  {
+    "id": "jadwal-perubahan",
+    "questions": [
+      "apakah jadwal kuliah bisa berubah?",
+      "bagaimana mengetahui perubahan ruangan kuliah?",
+      "bagaimana mengecek perubahan jadwal?"
+    ],
+    "answer": "Jadwal, dosen, dan ruang dapat berubah sesuai pengumuman prodi atau pengampu. Periksa Portal Akademik dan pengumuman resmi kelas/prodi. Data simulasi chatbot tidak diperbarui otomatis dan tidak dapat memastikan perubahan jadwal terbaru."
+  },
+  {
+    "id": "jadwal-krs",
+    "questions": [
+      "kapan jadwal pengisian krs?",
+      "kapan pengisian krs dibuka?",
+      "jadwal krs semester ini"
+    ],
+    "answer": "Tanggal pengisian dan perubahan KRS semester berjalan belum tersedia di knowledge base. Periksa kalender akademik serta pengumuman UNP dan prodi, lalu konsultasikan rencana mata kuliah dengan dosen penasihat akademik. Tidak ada tanggal KRS aktual yang dapat dipastikan dari data simulasi chatbot ini."
+  },
+  {
+    "id": "jadwal-ujian-resmi",
+    "questions": [
+      "kapan jadwal uts resmi?",
+      "kapan jadwal uas resmi?",
+      "jadwal ujian semester ini"
+    ],
+    "answer": "Tanggal UTS dan UAS resmi per mata kuliah belum tersimpan. Gunakan kalender akademik dan pengumuman prodi atau dosen. Entri UTS/UAS AI pada data awal adalah simulasi, bukan penetapan jadwal ujian semester berjalan."
+  },
+  {
+    "id": "kurikulum-menurut-angkatan",
+    "questions": [
+      "apakah mata kuliah setiap angkatan sama?",
+      "bagaimana melihat kurikulum sesuai angkatan?",
+      "di mana melihat daftar mata kuliah resmi?"
+    ],
+    "answer": "Daftar mata kuliah, kode, SKS, prasyarat dan semester penawaran harus mengikuti kurikulum yang berlaku untuk prodi dan angkatan mahasiswa. Gunakan http://kurikulum.unp.ac.id/ atau halaman kurikulum prodi dan konfirmasi ke pengelola prodi. Contoh mata kuliah berlabel SIMULASI dalam chatbot bukan dasar pengisian KRS."
+  },
+  {
+    "id": "sks-dan-prasyarat",
+    "questions": [
+      "berapa sks setiap mata kuliah?",
+      "apa prasyarat mata kuliah saya?",
+      "apakah contoh mata kuliah chatbot memiliki sks resmi?"
+    ],
+    "answer": "SKS dan prasyarat resmi sebagian besar mata kuliah belum dimasukkan ke knowledge base. Jangan menyimpulkan SKS, prasyarat, atau semester dari contoh jadwal. Periksa kurikulum prodi yang berlaku dan konsultasikan dengan dosen penasihat akademik."
+  },
+  {
+    "id": "mata-kuliah-teknik-mesin-s1-semester-1",
+    "questions": [
+      "apa saja mata kuliah teknik mesin s1 semester 1?",
+      "mata kuliah semester 1 teknik mesin s1"
+    ],
+    "answer": "Cuplikan mata kuliah Teknik Mesin S1 semester 1 pada halaman kurikulum prodi: Pendidikan Kewarganegaraan; Pendidikan Pancasila; Matematika Dasar; Material Teknik; Kimia Dasar; Menggambar Teknik; Fisika 1; Praktikum Fisika 1; Ilmu Hayat. Sumber: https://tm.ft.unp.ac.id/mata-kuliah-tahun-2026/ (diakses 10 November 2026). Periksa kembali kesesuaian dengan angkatan dan kurikulum yang berlaku; ini bukan jadwal kelas atau jaminan semua mata kuliah ditawarkan semester ini."
+  },
+  {
+    "id": "mata-kuliah-teknik-mesin-s1-semester-2",
+    "questions": [
+      "apa saja mata kuliah teknik mesin s1 semester 2?",
+      "mata kuliah semester 2 teknik mesin s1"
+    ],
+    "answer": "Cuplikan mata kuliah Teknik Mesin S1 semester 2 pada halaman kurikulum prodi: Pendidikan Agama; Bahasa Indonesia; Kalkulus 1; Metalurgi Fisik; Termodinamika 1; Menggambar Mesin; Fisika 2; Praktikum Fisika 2; Statika Struktur. Sumber: https://tm.ft.unp.ac.id/mata-kuliah-tahun-2026/ (diakses 10 November 2026). Periksa kembali kesesuaian dengan angkatan dan kurikulum yang berlaku; ini bukan jadwal kelas atau jaminan semua mata kuliah ditawarkan semester ini."
+  },
+  {
+    "id": "mata-kuliah-teknik-mesin-s1-semester-3",
+    "questions": [
+      "apa saja mata kuliah teknik mesin s1 semester 3?",
+      "mata kuliah semester 3 teknik mesin s1"
+    ],
+    "answer": "Cuplikan mata kuliah Teknik Mesin S1 semester 3 pada halaman kurikulum prodi: Literasi Komputasi; Kalkulus 2; Aljabar Linear; Kinematika Dinamika 1; Termodinamika 2; Mekanika Fluida 1; Fisika 3; Perpindahan Kalor dan Massa; Teknik Manufaktur 1; Praktikum Teknik Manufaktur 1. Sumber: https://tm.ft.unp.ac.id/mata-kuliah-tahun-2026/ (diakses 10 November 2026). Periksa kembali kesesuaian dengan angkatan dan kurikulum yang berlaku; ini bukan jadwal kelas atau jaminan semua mata kuliah ditawarkan semester ini."
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-elektronika-s1-semester-1",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik elektronika s1 semester 1?",
+      "mata kuliah semester 1 pendidikan teknik elektronika s1"
+    ],
+    "answer": "Cuplikan mata kuliah Pendidikan Teknik Elektronika S1 semester 1 pada halaman kurikulum prodi: Pendidikan Agama; Bahasa Indonesia; Rangkaian Listrik; Aljabar Linear; Fisika Terapan; Instrumentasi dan Pengukuran; Komponen Elektronika; Gambar Elektronika; Keterampilan Teknik; Praktikum Fisika Terapan. Sumber: https://pte.ft.unp.ac.id/index.php/struktur-kurikulum/ (diakses 10 November 2026). Periksa kembali kesesuaian dengan angkatan dan kurikulum yang berlaku; ini bukan jadwal kelas atau jaminan semua mata kuliah ditawarkan semester ini."
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-elektronika-s1-semester-2",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik elektronika s1 semester 2?",
+      "mata kuliah semester 2 pendidikan teknik elektronika s1"
+    ],
+    "answer": "Cuplikan mata kuliah Pendidikan Teknik Elektronika S1 semester 2 pada halaman kurikulum prodi: Pendidikan Kewarganegaraan; Pendidikan Pancasila; Teknik Elektronika; Pengawatan dan Teknologi PCB; Kalkulus; Sistem Telekomunikasi; Praktikum Ilmu Listrik dan Pengukuran; Algoritma Pemrograman; Praktikum Ilmu Elektronika. Sumber: https://pte.ft.unp.ac.id/index.php/struktur-kurikulum/ (diakses 10 November 2026). Periksa kembali kesesuaian dengan angkatan dan kurikulum yang berlaku; ini bukan jadwal kelas atau jaminan semua mata kuliah ditawarkan semester ini."
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-elektronika-s1-semester-3",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik elektronika s1 semester 3?",
+      "mata kuliah semester 3 pendidikan teknik elektronika s1"
+    ],
+    "answer": "Cuplikan mata kuliah Pendidikan Teknik Elektronika S1 semester 3 pada halaman kurikulum prodi: Pengantar Kewirausahaan; Bahasa Inggris; Teknik Radio; Teknik Digital; Matematika Teknik; Teknik Audio; Bahasa Inggris Teknik; Elektronika Industri; Perangkat Lunak Elektronika; Jaringan Komputer; Praktikum Digital. Sumber: https://pte.ft.unp.ac.id/index.php/struktur-kurikulum/ (diakses 10 November 2026). Periksa kembali kesesuaian dengan angkatan dan kurikulum yang berlaku; ini bukan jadwal kelas atau jaminan semua mata kuliah ditawarkan semester ini."
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-elektro-s1-semester-1",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik elektro s1 semester 1?",
+      "mata kuliah semester 1 pendidikan teknik elektro s1"
+    ],
+    "answer": "Cuplikan mata kuliah Pendidikan Teknik Elektro S1 semester 1 pada halaman kurikulum prodi: Pendidikan Pancasila; Pendidikan Kewarganegaraan; Dasar-dasar Ilmu Pendidikan; Fisika Teknik; K3 dan Hukum Ketenagakerjaan; Kalkulus; Ilmu Bahan Listrik; Praktikum Keterampilan Teknik; Bahasa Inggris Teknik. Sumber: https://elektro.ft.unp.ac.id/index.php/kurikulum-s1-pendidikan-teknik-elektro/ (diakses 10 November 2026). Periksa kembali kesesuaian dengan angkatan dan kurikulum yang berlaku; ini bukan jadwal kelas atau jaminan semua mata kuliah ditawarkan semester ini."
+  },
+  {
+    "id": "mata-kuliah-pendidikan-teknik-elektro-s1-semester-2",
+    "questions": [
+      "apa saja mata kuliah pendidikan teknik elektro s1 semester 2?",
+      "mata kuliah semester 2 pendidikan teknik elektro s1"
+    ],
+    "answer": "Cuplikan mata kuliah Pendidikan Teknik Elektro S1 semester 2 pada halaman kurikulum prodi: Pengantar Kewirausahaan; Pendidikan Agama; Bahasa Indonesia; Sistem Mikroprosesor; Matematika Terapan; Gambar Teknik Listrik; Rangkaian Listrik; Elektronika Analog dan Digital; Alat Ukur dan Pengukuran. Sumber: https://elektro.ft.unp.ac.id/index.php/kurikulum-s1-pendidikan-teknik-elektro/ (diakses 10 November 2026). Periksa kembali kesesuaian dengan angkatan dan kurikulum yang berlaku; ini bukan jadwal kelas atau jaminan semua mata kuliah ditawarkan semester ini."
   }
 ]
