@@ -1,6 +1,7 @@
 """Tugas anggota 1: implementasikan find_answer(question); kontrak di README.md."""
 
 import json
+import re
 from pathlib import Path
 
 
@@ -113,6 +114,28 @@ def load_knowledge_base() -> list[dict]:
             )
 
     return data
+
+
+def retrieve_context(question: str) -> list[dict]:
+    """Ambil maksimal tiga FAQ dengan kemiripan kata tertinggi."""
+    stopwords = set("apa itu siapa kapan di ke dan yang untuk dengan saya tolong jelaskan tentang bagaimana berapa dimana saja".split())
+
+    def tokens(text):
+        return set(re.findall(r"\w+", text.lower())) - stopwords
+
+    query = tokens(question)
+    ranked = []
+    # ponytail: pencarian kata untuk FAQ kecil; pakai embedding jika perlu pencocokan semantik.
+    for item in load_knowledge_base():
+        score = 0
+        for text in [*item["questions"], item["answer"]]:
+            words = tokens(text)
+            union = query | words
+            score = max(score, len(query & words) / len(union) if union else 0)
+        if score > 0:
+            ranked.append((score, item))
+    ranked.sort(key=lambda pair: pair[0], reverse=True)
+    return [item for _, item in ranked[:3]]
 
 
 # ==========================================
