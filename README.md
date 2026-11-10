@@ -47,7 +47,7 @@ chatbot-pemula/
 2. JavaScript mengirim JSON ke `POST /api/chat`; backend memvalidasi input lalu memanggil `service.answer()`.
 3. Service mencari pertanyaan di knowledge base.
 4. Jika ditemukan, service mengembalikan jawaban dengan sumber `knowledge_base` tanpa memanggil API.
-5. Jika tidak ditemukan, service memanggil LLM dan mengembalikan sumber `llm`.
+5. Jika tidak ditemukan, service memanggil LLM dengan RAG: `knowledge_base.retrieve_context()` memilih maksimal tiga FAQ dari JSON berdasarkan kemiripan kata pada pertanyaan dan jawaban. LLM mengutamakan FAQ relevan dan mencantumkan ID FAQ yang digunakan. Pertanyaan umum di luar konteks boleh dijawab memakai pengetahuan LLM, termasuk ketika konteks kosong. Detail akademik khusus kampus, prodi, atau kelas tetap harus berdasarkan knowledge base; jika belum tersedia, LLM diarahkan menyatakan keterbatasan tersebut. Sumber respons tetap `llm`. Pencarian ini belum memakai embedding sehingga sinonim tanpa kata yang sama bisa tidak ditemukan.
 6. Backend mengembalikan JSON; web menampilkan jawaban dan sumbernya. Jika API gagal, web menampilkan pesan gagal yang jelas dan mengaktifkan kembali tombol kirim. Jangan menampilkan jawaban palsu atau API key.
 
 ## Kontrak HTTP
@@ -185,7 +185,7 @@ Dari folder proyek, jalankan di terminal lain:
 .\.venv\Scripts\python.exe -m unittest discover -s . -p "test_*.py" -v
 ```
 
-Tes tersedia pada `test_knowledge_base.py`, `test_service.py`, dan `test_server.py`. Pengujian fallback LLM memakai mock sehingga tidak mengirim request ke provider. Pengujian API asli dilakukan melalui web dengan konfigurasi provider yang valid.
+Tes tersedia pada `test_knowledge_base.py`, `test_service.py`, `test_server.py`, dan `test_llm.py`. Pengujian fallback LLM dan konteks RAG memakai mock sehingga tidak mengirim request ke provider. Pengujian API asli dilakukan melalui web dengan konfigurasi provider yang valid.
 
 ## Kendala umum
 
