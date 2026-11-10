@@ -2,16 +2,16 @@
 
 Workspace proyek chatbot sederhana untuk tim 5 orang. Chatbot mencari jawaban di knowledge base lokal terlebih dahulu. Jika tidak ditemukan, pertanyaan diteruskan ke LLM melalui API.
 
-**Status:** struktur awal dan contoh data tersedia. Antarmuka web, backend, logika chatbot, pemanggilan API, dan pengujian masih menjadi tugas tim. `main.py` belum menjalankan server.
+**Status:** web dan backend sudah terhubung ke knowledge base serta fallback LLM. Jalankan aplikasi melalui `main.py`; langkah lengkap tersedia pada bagian Cara menjalankan.
 
 ## Ruang lingkup
 
 - Pengguna mengobrol melalui halaman web memakai HTML, CSS, dan JavaScript biasa.
 - Backend Python menyajikan halaman web dan endpoint `POST /api/chat` dari origin yang sama.
-- Knowledge base disimpan dalam JSON; contoh isinya FAQ materi Python. Topik bisa diganti sesuai kebutuhan.
+- Knowledge base disimpan dalam JSON; isinya FAQ akademik UNP. Topik bisa diganti sesuai kebutuhan.
 - Pencarian awal memakai normalisasi huruf kecil, penghapusan spasi di awal/akhir, dan pencocokan pertanyaan secara persis terhadap `questions`.
 - LLM dipanggil hanya jika pencarian lokal tidak menghasilkan jawaban.
-- Gunakan standard library Python terlebih dahulu: `http.server`, `json`, `os`, `urllib.request`, dan `unittest`. Server awal untuk demo lokal di `127.0.0.1:8000`; deployment publik memerlukan server produksi dan pembatasan akses API.
+- Backend memakai standard library Python; klien LLM memakai `openai` dan konfigurasi `.env` dibaca oleh `python-dotenv`. Server awal untuk demo lokal di `127.0.0.1:8000`; deployment publik memerlukan server produksi dan pembatasan akses API.
 - Riwayat percakapan cukup disimpan di tampilan selama halaman terbuka. Setiap request berisi satu pertanyaan, tanpa memori percakapan di LLM.
 
 ## Struktur folder
@@ -52,7 +52,7 @@ chatbot-pemula/
 
 ## Kontrak HTTP
 
-Halaman dibuka melalui `http://127.0.0.1:8000/` setelah server diimplementasikan. Backend hanya menyajikan `/`, `/style.css`, dan `/app.js` dari folder `web/`; file `.env`, kode Python, dan folder `data/` tidak boleh dapat diakses melalui HTTP. Gunakan daftar rute statis yang diizinkan, jangan menyajikan seluruh workspace.
+Halaman dibuka melalui `http://127.0.0.1:8000/` setelah server dijalankan. Backend hanya menyajikan `/`, `/style.css`, dan `/app.js` dari folder `web/`; file `.env`, kode Python, dan folder `data/` tidak boleh dapat diakses melalui HTTP. Gunakan daftar rute statis yang diizinkan, jangan menyajikan seluruh workspace.
 
 Request `POST /api/chat`, dengan `Content-Type: application/json`:
 
@@ -98,7 +98,7 @@ Aturan data: `id` unik dan tidak kosong; `questions` berupa daftar string tidak 
 
 ## Kontrak antarmodul
 
-Kontrak berikut disepakati sebelum anggota tim mulai mengisi modul. Fungsi belum diimplementasikan.
+Kontrak fungsi yang digunakan oleh aplikasi:
 
 | Modul | Fungsi | Hasil dan perilaku |
 | --- | --- | --- |
@@ -130,45 +130,73 @@ Urutan kerja:
 
 Branch yang disarankan: `feat/knowledge-base`, `feat/llm`, `feat/backend`, `feat/web`, dan `test/integration`. Hindari perubahan file anggota lain tanpa koordinasi.
 
-## Persiapan lokal
+## Cara menjalankan
 
-Gunakan Python 3.10 atau lebih baru. Dari folder proyek, jalankan PowerShell:
+Gunakan Python 3.10 atau lebih baru. Jalankan perintah berikut melalui PowerShell dari folder proyek yang berisi `main.py` dan `requirement.txt`.
+
+1. Buat virtual environment dan instal dependensi:
+
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirement.txt
+   ```
+
+   Dependensi proyek: `openai` dan `python-dotenv`. Perintah memakai Python virtual environment langsung sehingga tidak perlu aktivasi.
+
+2. Buat konfigurasi lokal jika `.env` belum ada:
+
+   ```powershell
+   if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+   ```
+
+   Edit file `.env` dan ganti nilai contoh berikut dengan konfigurasi provider:
+
+   ```dotenv
+   API_AI_BASE_URL=https://alamat-provider.example/v1
+   API_AI_KEY=isi-api-key-lokal
+   API_AI_MODEL=isi-model-provider
+   ```
+
+   URL di atas hanya placeholder. Gunakan base URL, API key, dan nama model dari provider yang mendukung API Chat Completions kompatibel OpenAI. `API_AI_BASE_URL` adalah base URL, bukan URL lengkap `/chat/completions`.
+
+   `chatbot/llm.py` membaca `.env` otomatis. Environment variable yang sudah disetel pada terminal memiliki prioritas atas nilai `.env`. Jangan commit file `.env` atau membagikan API key.
+
+   Untuk mencoba knowledge base tanpa API LLM, kosongkan ketiga nilai konfigurasi tersebut. Pertanyaan lokal tetap dijawab; pertanyaan yang tidak ditemukan menampilkan error konfigurasi LLM.
+
+3. Jalankan server:
+
+   ```powershell
+   .\.venv\Scripts\python.exe main.py
+   ```
+
+   Terminal menampilkan alamat `http://127.0.0.1:8000/`. Biarkan terminal tetap terbuka selama memakai chatbot.
+
+4. Buka [http://127.0.0.1:8000/](http://127.0.0.1:8000/) di browser. Halaman harus dibuka melalui server agar request `/api/chat` berfungsi.
+
+   Coba pertanyaan `Apa itu UNP?` atau `Siapa dosen AI?`. Jawaban lokal menampilkan sumber `Knowledge Base`. Pertanyaan yang tidak cocok diteruskan ke LLM jika konfigurasi tersedia.
+
+5. Tekan **Ctrl+C** di terminal untuk menghentikan server. Setelah mengubah `.env` atau kode Python, hentikan lalu jalankan kembali server.
+
+## Menjalankan pengujian
+
+Dari folder proyek, jalankan di terminal lain:
 
 ```powershell
-python -m venv .venv
+.\.venv\Scripts\python.exe -m unittest discover -s . -p "test_*.py" -v
 ```
 
-Belum ada dependency eksternal. Perintah selanjutnya memakai Python virtual environment secara langsung sehingga aktivasi tidak diperlukan.
+Tes tersedia pada `test_knowledge_base.py`, `test_service.py`, dan `test_server.py`. Pengujian fallback LLM memakai mock sehingga tidak mengirim request ke provider. Pengujian API asli dilakukan melalui web dengan konfigurasi provider yang valid.
 
-Jika `.env` belum ada, salin contoh tanpa menimpa konfigurasi lama:
+## Kendala umum
 
-```powershell
-if (-not (Test-Path .env)) { Copy-Item .env.example .env }
-```
-
-`.env` hanya contoh penyimpanan konfigurasi lokal; Python tidak membacanya otomatis. Untuk versi awal berbasis standard library, tetapkan environment variable pada terminal yang menjalankan aplikasi:
-
-```powershell
-$env:API_AI_BASE_URL = "https://api.example.com"
-$env:API_AI_KEY = "isi-api-key-lokal"
-$env:API_AI_MODEL = "isi-model-provider"
-```
-
-URL dan model di atas adalah placeholder. Anggota 2 menetapkan endpoint sesuai dokumentasi provider. Jangan commit API key atau menaruhnya dalam kode, log, maupun screenshot.
-
-Setelah implementasi tim selesai:
-
-```powershell
-.\.venv\Scripts\python.exe main.py
-```
-
-Buka `http://127.0.0.1:8000/` di browser. Jangan membuka `index.html` langsung dari filesystem. Hentikan server lewat Ctrl+C. Jalankan pengujian di terminal lain:
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
-```
-
-Saat ini folder `tests/` belum berisi tes; hasil nol tes belum menandakan fitur selesai. Pengujian otomatis harus memakai mock untuk API. Uji API langsung dilakukan terpisah dengan key lokal.
+| Kendala | Langkah perbaikan |
+| --- | --- |
+| `python` tidak dikenali | Instal Python 3.10 atau lebih baru dan aktifkan opsi Add Python to PATH. Buka ulang terminal. |
+| `ModuleNotFoundError` untuk `openai` atau `dotenv` | Instal ulang dengan `.\.venv\Scripts\python.exe -m pip install -r requirement.txt`, lalu jalankan server memakai Python yang sama. |
+| Browser gagal terhubung | Pastikan server masih berjalan dan buka `http://127.0.0.1:8000/`. |
+| Port 8000 sudah dipakai | Hentikan proses server lama sebelum menjalankan server baru. |
+| Knowledge base atau konfigurasi LLM tidak valid | Pastikan `data/knowledge_base.json` tersedia dan formatnya valid; periksa tiga nilai konfigurasi LLM pada `.env`. |
+| Layanan AI gagal merespons | Periksa koneksi internet, base URL provider, API key, nama model, serta kuota provider. |
 
 ## Skenario penerimaan
 
