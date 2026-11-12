@@ -1,5 +1,7 @@
 # Chatbot Python: Knowledge Base + Fallback LLM
 
+![Preview web Asisten Akademik dengan percakapan chatbot dan sumber jawaban](preview.png)
+
 Workspace proyek chatbot sederhana untuk tim 5 orang. Chatbot mencari jawaban di knowledge base lokal terlebih dahulu. Jika tidak ditemukan, pertanyaan diteruskan ke LLM melalui API.
 
 **Status:** web dan backend sudah terhubung ke knowledge base serta fallback LLM. Jalankan aplikasi melalui `main.py`; langkah lengkap tersedia pada bagian Cara menjalankan.
